@@ -14,11 +14,7 @@ namespace ContagemRegressiva
             Console.ReadKey();
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Fogo!");
-            Console.ForegroundColor = ConsoleColor.White;
-
-
-
-
+            Console.ResetColor();
 
         }
 
